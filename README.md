@@ -12,9 +12,12 @@ Noise reduction in speech signals is a field of study to recover an original sig
 
 It is considered that the audio signal is polluted by Additive White Gaussian Noise (AWGN) and the polluted signal is subjected to the removal of noise using the proposed denoising technique. The processes performed in the proposed denoising technique are explained in detail as follows
 
-(i) Transformation of the noisy signal to wavelet domain,
-(ii) Generation of a set of closer blocks,
-(iii) Generating a multidimensional array,
+(i) Transformation of the noisy signal to wavelet domain
+
+(ii) Generation of a set of closer blocks
+
+(iii) Generating a multidimensional array
+
 (iv) Reconstructing the denoised audio signal.
 
 In the proposed work, initially, the noisy audio signal is subjected to Wavelet Transformation. Wavelet transformation produces a few significant coefficients for the signals with discontinuities. Audio signals are smooth with a few discontinuities. Hence, wavelet transformation has better capability for representing these signals when compared to other transformations.
